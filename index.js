@@ -1,4 +1,4 @@
-function doublePrimeVowels(options) {
+function doublePrimeVowels(options = {}) {
   const { lowerCaseOffset = -0.1, upperCaseOffset = -0.3 } = options;
 
   const styleTag = `<style>
